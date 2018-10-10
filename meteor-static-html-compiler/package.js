@@ -3,7 +3,7 @@ Package.describe({
   version: '2.0.0',
   summary: 'Compiles static HTML templates so you could import them from a module'
 });
-
+// published with meteor 1.6
 Npm.depends({
   'cheerio': '0.22.0',
   'html-minifier': '3.5.20',
