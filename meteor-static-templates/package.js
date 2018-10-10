@@ -1,6 +1,6 @@
 Package.describe({
   name: 'seba:static-templates-debug',
-  version: '1.0.1',
+  version: '1.0.2',
   summary: 'Meteor plugin for importing static HTML templates'
 });
 
