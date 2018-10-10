@@ -50,17 +50,17 @@ export class TemplateHtmlCompiler extends BaseHtmlCompiler implements ITemplateH
    * @return {string}          javascript code
    */
   public compileContents(file: FileObject, contents) {
-    return Babel
-    .compile(`export default "${clean(contents)}";`, babelOptions)
-    .code;
     // return Babel
-    // .compile(`export default "${clean(contents)}";`, babelOptions, {
-    //   cacheDirectory: this._diskCache,
-    //   cacheDeps: {
-    //     sourceHash: this.getCacheKey(file),
-    //   },
-    // })
+    // .compile(`export default "${clean(contents)}";`, babelOptions)
     // .code;
+    return Babel
+    .compile(`export default "${clean(contents)}";`, babelOptions, {
+      cacheDirectory: this._diskCache,
+      cacheDeps: {
+        sourceHash: this.getCacheKey(file),
+      },
+    })
+    .code;
   }
 
   public addCompileResult(file: FileObject, result: string) {
