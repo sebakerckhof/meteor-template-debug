@@ -1,9 +1,9 @@
 Package.describe({
   name: 'seba:static-html-compiler-debug',
-  version: '3.0.1',
+  version: '4.0.0',
   summary: 'Compiles static HTML templates so you could import them from a module'
 });
-// published with meteor 1.8!
+// published with meteor 1.6.1!
 Npm.depends({
   'cheerio': '0.22.0',
   'html-minifier': '3.5.20',
@@ -13,7 +13,7 @@ Package.onUse(function(api) {
   api.versionsFrom('METEOR@1.6.1');
 
   const packages = [
-    'caching-compiler@1.1.10',
+    'caching-compiler@1.1.12',
     'ecmascript@0.10.0',
     'babel-compiler@7.0.0',
   ];

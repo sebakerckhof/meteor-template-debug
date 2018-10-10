@@ -1,17 +1,17 @@
 Package.describe({
   name: 'seba:static-templates-debug',
-  version: '3.0.0',
+  version: '4.0.0',
   summary: 'Meteor plugin for importing static HTML templates'
 });
-//published with meteor 1.6
+//published with meteor 1.8
 Package.registerBuildPlugin({
   name: 'compileStaticTemplate',
   sources: [
     'plugin.js'
   ],
   use: [
-    'seba:static-html-compiler-debug@3.0.0',
-    'ecmascript@0.2.0'
+    'seba:static-html-compiler-debug@4.0.0',
+    'ecmascript@0.12.0'
   ]
 });
 
