@@ -13,5 +13,5 @@ modules-runtime@0.9.2
 promise@0.10.2
 random@1.1.0
 seba:static-html-compiler-debug@1.0.1
-seba:static-templates-debug@1.0.2
+seba:static-templates-debug@1.0.3
 url@1.2.0
