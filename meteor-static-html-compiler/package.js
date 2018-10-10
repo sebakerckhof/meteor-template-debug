@@ -1,12 +1,12 @@
 Package.describe({
   name: 'seba:static-html-compiler-debug',
-  version: '1.0.1',
+  version: '2.0.0',
   summary: 'Compiles static HTML templates so you could import them from a module'
 });
 
 Npm.depends({
   'cheerio': '0.22.0',
-  'html-minifier': '3.5.8',
+  'html-minifier': '3.5.20',
 });
 
 Package.onUse(function(api) {
