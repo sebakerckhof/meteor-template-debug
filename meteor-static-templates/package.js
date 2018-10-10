@@ -3,6 +3,7 @@ Package.describe({
   version: '1.0.3',
   summary: 'Meteor plugin for importing static HTML templates'
 });
+// published with meteor 1.6.1
 
 Package.registerBuildPlugin({
   name: 'compileStaticTemplate',
