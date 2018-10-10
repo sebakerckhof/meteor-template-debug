@@ -10,7 +10,7 @@ Package.registerBuildPlugin({
     'plugin.js'
   ],
   use: [
-    'seba:static-html-compiler-test@1.0.0',
+    'seba:static-html-compiler-debug@1.0.0',
     'ecmascript@0.2.0'
   ]
 });
